@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
+
+.wc-btn {
+    @apply inline-block px-5 py-3 rounded-lg text-white text-sm uppercase tracking-wide font-semibold;
+}
+
+.wc-btn:focus {
+    @apply outline-none;
+}
+
+.wc-btn-indigo {
+    @apply bg-indigo-500;
+}
+
+.wc-btn-indigo:hover {
+    @apply bg-indigo-400;
+}
+
+.wc-btn-indigo:focus {
+    @apply shadow-outline;
+}
+
+.wc-btn-indigo:active {
+    @apply bg-indigo-600;
+}
+
+.wc-btn-gray {
+    @apply bg-gray-400 text-gray-800;
+}
+
+.wc-btn-gray:hover {
+    @apply bg-gray-300;
+}
+
+.wc-btn-gray:active {
+    @apply bg-gray-500;
+}
+
 @tailwind utilities;

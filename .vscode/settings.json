@@ -1,5 +1,7 @@
 {
     "editor.formatOnSave": true,
     "editor.minimap.enabled": false,
-    "editor.fontSize": 13
+    "editor.fontSize": 13,
+    "css.lint.unknownAtRules": "ignore",
+    "css.validate": false
 }
